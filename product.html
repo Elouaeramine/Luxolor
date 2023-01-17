@@ -119,37 +119,78 @@
                         </div>
                     </div>
                 </div>
-                <div class="nav-content">
-                    <div class="inner-content">
-                        <address class="v-middle">
-                            <span>Egypt</span>
-                            <span>Damietta</span>
-                            <span>01024552406</span>
-                        </address>
-                    </div>
-
-                </div>
             </div>
         </div>
     </div>
     <!-- End Nav Bar -->
     <main class="main-root">
         <div id="dsn-scrollbar">
-            <header>
-                <div class="header-hero header-hero-2 ">
-                    <div class="container h-100">
-                        <div class="row align-items-center h-100">
-                            <div class="col-lg-12">
-                                <div class="contenet-hero">
-                                    <h1>Indulge in the finer things in life.</h1>
-                                    <p>Treat yourself to the ultimate in sophistication and style with LuxolorYachts customizable yachts.</p>
+            <div class="hero">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="image-zoom hero-cta" data-dsn="parallax">
+                        <button id="download-button" download="brochure.pdf">Build Yours Now</button>
+                      </div>
+                      <div class="hero-features">
+                          <div class="hero-features-detail">
+                              <h6>Power</h6>
+                              <p>1000 Hp</p>
+                          </div>
+                          <div class="hero-features-detail">
+                              <h6>Speed</h6>
+                              <p>60 Kmh</p>
+                          </div>
+                          <div class="hero-features-detail">
+                              <h6>Length</h6>
+                              <p>13 m</p>
+                          </div>
+                          <div class="hero-features-detail">
+                              <h6>Range</h6>
+                              <p>250 Nm</p>
+                          </div>
+                      </div>
+                    </div>
+              </div>
+            
+              <section class="intro-about section-margin">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="intro-content-text">
+
+                                <h2 data-dsn-grid="move-section" data-dsn-move="-30" data-dsn-duration="100%"
+                                    data-dsn-opacity="1.2" data-dsn-responsive="tablet">
+                                    Lorem ipsum, <br /> dolor sit
+                                </h2>
+
+                                <p data-dsn-animate="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+                                <h6 data-dsn-animate="text">Lorem Ipsum</h6>
+                                <small data-dsn-animate="text">Lorem Ipsum</small>
+
+                                <div class="exper">
+                                    <div class="numb-ex">
+                                        <span class="word" data-dsn-animate="text">25</span>
+                                    </div>
+
+                                    <h4 data-dsn-animate="up">YEARS OF <br> EXPERIENCE</h4>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
-            </header>
-
+                <div class="background-mask">
+                    <div class="background-mask-bg"></div>
+                    <div class="img-box">
+                        <div class="img-cent" data-dsn-grid="move-up">
+                            <div class="img-container">
+                                <img data-dsn-y="30%" src="https://data.yachtcloser.com/manufacturerimage/modelimage/bigger/NR531KBINR2QHPBIUUMBWWSS5P7SGCC17572323mm10-Axopar-28-TT-MY2018-gallery-R7A9686.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <div class="wrapper">
                 <div class="root-about">
                     <div class="box-seat box-seat-full">
@@ -159,43 +200,85 @@
                             </div>
                             <div class="pro-text">
                                 <h3 data-dsn-animate="up">Elevate your next adventure with a custom yacht designed to your exact specifications.</h3>
-                                <!-- <p data-dsn-animate="up">
-                                    Blue money going forward, but deploy to production. C-suite. First-order optimal
-                                    strategies build on a culture of contribution and inclusion so those options
-
-                                </p> -->
                             </div>
                         </div>
                     </div>
+                    
 
-                    <section class="intro-about section-margin section-padding hidden">
-                        <div class="mask-bg"></div>
+                    <section class="brand-client section-margin" id="configurator">
                         <div class="container">
-                            <div class="row align-items-center h-100">
-                                <div class="col-lg-6">
-                                    <div class="box-im">
-                                        <div class="cover-bg" data-image-src="assets/img/skills.jpg"></div>
-                                    </div>
+                            <div class="one-title" data-dsn-animate="up">
+                                <div class="title-sub-container">
+                                    <p class="title-sub">Configure Your Yacht</p>
                                 </div>
-                                <div class="col-lg-5 offset-lg-1">
-                                    <div class="small-title">
-                                        <span class="counter">01</span>
-                                        <h5>About Us</h5>
+                                <h2 class="title-main">We offer you the chance to customize your own yacht as you wish. </h2>
+                            </div>
+
+                            <!-- Insert Configurator Here !!  -->
+                            <div>
+                                <div class="container">
+                                    <div class="footer-links p-relative">
+                                        <div class="row">
+                                            <div class="col-md-9 dsn-col-footer configurator">
+                                               <h1>Configurator here !!</h1>
+                                            </div>
+                
+                                            <div class="col-md-3 dsn-col-footer">
+                                                <div class="form-box">
+                                                    <h6>Choose your yacht</h6>
+                                                    <form id="configurator-form" class="form" method="post" action="" data-toggle="validator">
+                                                      <div class="input__wrap controls">
+                                                        <div>
+                                  
+                                                          <div class="entry" id="header-container">
+                                                              <select name="propulsion" id="propulsion" form="configurator-form">
+                                                                <option disabled >Propulsion systems</option>
+                                                                <option value="diesel">Diesel Engine</option>
+                                                                <option value="gas">Gas Turbine Engine</option>
+                                                                <option value="electric">Electric Motors</option>
+                                                            </select>   
+                                                          </div>
+                                                        </div>
+                                  
+                                                        <div>
+                                                          <div class="entry" id="header-container">
+                                                              <select name="color" id="color" form="configurator-form">
+                                                                <option disabled>Color</option>
+                                                                <option value="black">Black</option>
+                                                                <option value="blue">Blue</option>
+                                                                <option value="red">Red</option>
+                                                            </select>   
+                                                          </div>
+                                                        </div>
+                                  
+                                                        <div>
+                                                          <div class="entry" id="header-container">
+                                                            <label>Extinguisher</label>
+                                                            <input type="radio" id="yes" name="extinguisher" value="yes">
+                                                            <label for="yes">Yes</label><br>
+                                                            <input type="radio" id="no" name="extinguisher" value="no">
+                                                            <label for="no">No</label><br>
+
+                                                          </div>
+                                                        </div>
+                                  
+                                                        <div class="image-zoom" data-dsn="parallax">
+                                                          <button>submit</button>
+                                                        </div>
+                                                      </div>
+                                                    </form>
+                                                  </div>
+                                            </div>
+                                        </div>
                                     </div>
 
-                                    <div class="content">
-                                        <h5>Speaking of employee happiness -</h5>
-                                        <h3>Our two goals are employee happiness and client happiness</h3>
-                                        <p>We won the Best Workplace award from Great Place to Work 3 times in Finland,
-                                            and
-                                            once in all of
-                                            Europe.</p>
-
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </section>
+
+                    
+                    
 
                     
                     <section class="our-team section-margin section-padding">
@@ -253,119 +336,7 @@
                         </div>
                     </section>
 
-
-
-                    <section class="our-client section-margin light">
-                        <div class="container">
-                            <div class="one-title" data-dsn-animate="up">
-                                <div class="title-sub-container">
-                                    <p class="title-sub"> Client see</p>
-                                </div>
-                                <h2 class="title-main">Feedback from our clients.</h2>
-                            </div>
-
-                            <div class="client-curs">
-                                <div class="client-item">
-                                    <div>
-                                        <p>
-                                            Dave & his team at Blacksmith Agency were incredible partners
-                                            at a critical time for our company. Day in & day out, they
-                                            were there for us every step of the way delivering results for
-                                            us & our high profile corporate partner.
-                                        </p>
-                                        <h5>Brandon Barbello</h5>
-                                        <span>Vivalnk Inc | Google IO</span>
-                                    </div>
-                                </div>
-
-                                <div class="client-item">
-                                    <div>
-                                        <p>
-                                            Dave & his team at Blacksmith Agency were incredible partners
-                                            at a critical time for our company. Day in & day out, they
-                                            were there for us every step of the way delivering results for
-                                            us & our high profile corporate partner.
-                                        </p>
-                                        <h5>Brandon Barbello</h5>
-                                        <span>Vivalnk Inc | Google IO</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section class="brand-client section-margin">
-                        <div class="container">
-                            <div class="one-title" data-dsn-animate="up">
-                                <div class="title-sub-container">
-                                    <p class="title-sub">Configure Your Yacht</p>
-                                </div>
-                                <h2 class="title-main">We offer you the chance to customize your own yacht as you wish. </h2>
-                            </div>
-
-                            <!-- Insert Configurator Here !!  -->
-                            <div>
-                                <div class="container">
-                                    <div class="footer-links p-relative">
-                                        <div class="row">
-                                            <div class="col-md-9 dsn-col-footer configurator">
-                                               <h1>Configurator here !!</h1>
-                                            </div>
-                
-                                            <div class="col-md-3 dsn-col-footer">
-                                                <div class="form-box">
-                                                    <h6>Choose your yacht</h6>
-                                                    <form id="configurator-form" class="form" method="post" action="" data-toggle="validator">
-                                                      <div class="input__wrap controls">
-                                                        <div class="form-group">
-                                  
-                                                          <div class="entry">
-                                                            <label>Propulsion systems</label>
-                                                            <select name="propulsion" id="propulsion" form="configurator-form">
-                                                                <option value="diesel">Diesel Engine</option>
-                                                                <option value="gas">Gas Turbine Engine</option>
-                                                                <option value="electric">Electric Motors</option>
-                                                            </select>   
-                                                          </div>
-                                                        </div>
-                                  
-                                                        <div class="form-group">
-                                                          <div class="entry">
-                                                            <label>Color</label>
-                                                            <select name="color" id="color" form="configurator-form">
-                                                                <option value="black">Black</option>
-                                                                <option value="blue">Blue</option>
-                                                                <option value="red">Red</option>
-                                                            </select>   
-                                                          </div>
-                                                        </div>
-                                  
-                                                        <div class="form-group">
-                                                          <div class="entry">
-                                                            <label>Extinguisher</label>
-                                                            <input type="radio" id="yes" name="extinguisher" value="yes">
-                                                            <label for="yes">Yes</label><br>
-                                                            <input type="radio" id="no" name="extinguisher" value="no">
-                                                            <label for="no">No</label><br>
-
-                                                          </div>
-                                                        </div>
-                                  
-                                                        <div class="image-zoom" data-dsn="parallax">
-                                                          <button>submit</button>
-                                                        </div>
-                                                      </div>
-                                                    </form>
-                                                  </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
+                    
                 </div>
                 </section>
 
@@ -448,11 +419,6 @@
 
     <!-- cursor -->
     <div class="cursor">
-
-        <!-- <div class="cursor-helper cursor-view">
-            <span>VIEW</span>
-        </div> -->
-
         <div class="cursor-helper cursor-close">
             <span>Close</span>
         </div>
@@ -460,7 +426,14 @@
         <div class="cursor-helper cursor-link"></div>
     </div>
     <!-- End cursor -->
+    <script>
+        var button = document.getElementById("download-button");
+        button.addEventListener("click", function() {
+          window.location.href = "./assets/files/brochure.pdf";
+        });
+      </script>
     <!-- Optional JavaScript -->
+    <script src="assets/js/main.js"></script>
     <script src="assets/js/jquery-3.1.1.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/dsn-grid.js"></script>

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 /*-----------------------------------------------------------
 
     1.  Variables
@@ -12553,6 +12554,105 @@ footer .copyright-social ul li:last-child {
 .v-light .caption {
   color: #000;
 }
+
+/* Product Page Styles  
+/* Hero Section  */
+.hero{
+  height:100vh;
+  width: 100%;
+  background-image:url("../img/model1.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+}
+.hero .overlay{
+  background-color:#000;
+  position:absolute;
+  height:100%;
+  width:100%;
+  z-index:1;
+  left:0;
+  right:0;
+  top:0;
+  opacity:0.5;
+}
+.hero .content{
+  width: 100%;
+  color:#fff;
+  z-index:2;
+  text-align:center;
+  padding: 7%;
+}
+.hero .content h1{
+  font-size:45px;
+  font-weight:700;
+  font-family: 'Montserrat', sans-serif;
+}
+.hero .content p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero .content .hero-cta button{
+  background-color: grey;
+}
+
+.hero .content .hero-features{
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+
+#header-container {
+  display: block;
+  position: absolute;
+  width: 320px;
+  height: 55px;
+  left: 50%;
+  top: 50%;
+  margin-left: -160px;
+  margin-top: -87px;
+}
+
+/* Select style here */
+
+select {
+  margin: 0 auto;
+  color: #EC6F66;
+  width: 310px;
+  padding: 15px;
+  height: 25px;
+  cursor: pointer;
+  background: url(http://sharpik.com/wip/cuteselect/arrow.png) 295px 12px no-repeat white;
+}
+
+select:hover {
+  background-color: transparent;
+  color: white;
+  padding: 15px 5px 15px 25px;
+}
+
+select option {
+  background-color: white;
+  color: gray;
+  width: 310px;
+  padding: 10px 15px;
+  height: 20px;
+  cursor: pointer;
+}
+
+select option:hover {
+  padding-left: 25px;
+  width: 270px;
+  color: #EC6F66;
+}
+
 
 /*# sourceMappingURL=style.css.map */
 /* Configuratoooor */
